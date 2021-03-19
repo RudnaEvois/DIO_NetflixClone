@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+    <title>NETFLIX CLONE</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">NETFLIX</h2>
+            <nav>
+                <a href="#">Inicio</a>
+                <a href="">Séries</a>
+                <a href="">Filmes</a>
+                <a href="">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div id="smalville" class="filme-principal">
+            <div class="container">
+                <h3 class="titulo"></h3>
+                <p class="descricao">A temporada narra as primeiras aventuras do jovem Clark Kent a partir do momento em que seu planeta natal, Krypton, é destruido e ele cai em uma nave na cidade de Smallville (Pequenópolis, no Brasil), onde é adotado por Martha e Jonathan Kent.</p>
+                <div class="botoes">
+                    <button role="button" class="botao">
+                        <i class="fas fa-play"></i>
+                        ASSISTIR AGORA
+                    </button>
+                    <button role="button" class="botao">
+                        <i class="fas fa-info"></i>
+                         MAIS INFORMAÇÕES
+                    </button>
+                </div>
+            </div>
+        </div>   
+    </main>
+    <div class="carossel-filmes">
+        <div class="owl-carousel owl-theme ">
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./umbrella.html')" src="img/mini1.jpg" alt="The Umbrella Academy">                                      
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./starwars.html')"  src="img/mini2.jpg" alt="Star Wars - A Ascensão Skywalker">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./pokemon.html')" src="img/mini3.jpg" alt="Pokémon" >
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./capitao-america.html')" src="img/mini4.jpg" alt="Capitão America - Guerra Civil">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./hobbit.html')" src="img/mini5.jpg" alt="O Hobbit - A Batalha dos Cinco Anéis">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./breaking-bad.html')" src="img/mini6.jpg" alt="Breaking Bad">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./dr-house.html')" src="img/mini7.jpg" alt="Doutor House">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./sobrenatural.html')" src="img/mini8.jpg" alt="Sobrenatural">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./index.html')" src="img/hfc.jpg" alt="The House Of Cards">
+            </div>
+            <div class="item">
+                <img class="box-filme" onclick="mudaPagina('./vingadores-gi.html')" src="img/mini10.jpg" alt="Os Vingadores - Guerra Infinita">
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/614a0bc9ca.js" crossorigin="anonymous"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/setup.js"></script>
+    
+</body>
+</html>
